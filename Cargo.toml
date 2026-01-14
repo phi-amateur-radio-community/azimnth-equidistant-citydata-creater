@@ -3,7 +3,10 @@ name = "azimnth-equidistant-citydata-creater"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "aecc-fst"
+path = "src/main.rs"
+
 [dependencies]
 clap = "4.5.54"
-clap_derive = "4.5.49"
 fst = "0.4.7"

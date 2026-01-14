@@ -1,3 +1,17 @@
+// Copyright (c) 2026 St Rangeset
+// Licensed under the GPLv3 or later License.
+// See LICENSE file for details.
+//
+// src/main.rs
+// Entry point.
+
+
+mod arg;
+
 fn main() {
-    println!("Hello, world!");
+    init();
+}
+
+fn init() {
+    arg::handle_cli();
 }
